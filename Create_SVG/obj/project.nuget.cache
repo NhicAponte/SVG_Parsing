@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QtAGwSO177Nl8CQr0HGFDbLVD+n5qRxHDCamFQvFSgj6OX8/Rrafy/vfs0kka1xufCmwo5mzuvkKrdVN4AK6xQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nhikazio\\source\\repos\\Create_SVG\\Create_SVG.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nhikazio\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
