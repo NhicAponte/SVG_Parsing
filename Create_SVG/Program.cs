@@ -8,33 +8,23 @@ namespace Create_SVG
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //Build_SVG();
+            XmlDocument svg_doc = Build_SVG("Temp_Files/Base_Template.xml");
             //width="3456"
             //height="2304"
-            SVG_Template(3456,2304); 
+            //SVG_Template(3456,2304); 
         }
 
-        public static void Build_SVG()
+        public static XmlDocument Build_SVG(string file_name)
         {
             Console.WriteLine("svg build started");
-            XmlDocument svg_doc = new XmlDocument();
-            //XmlDocument clean_svg = new XmlDocument();
-            Console.WriteLine("loading svg");
-            svg_doc.LoadXml("SVG_Base_Template.xml");
+            XmlDocument temp_doc = new XmlDocument();
+            
+            //Console.WriteLine("loading svg");
+            
+            temp_doc.Load(file_name);
 
-            //string _byteOrderMarkUtf8 = Encoding.UTF8.GetString(Encoding.UTF8.GetPreamble());
-            //if (svg_doc.StartsWith(_byteOrderMarkUtf8))
-            //{
-            //    svg_doc = svg_doc.Remove(0, _byteOrderMarkUtf8.Length);
-           // }
+            //Console.WriteLine("svg load was successful");
 
-            //svg_doc.LoadXml("Create_SVG/SVG_Template_engineering.xml");
-            Console.WriteLine("svg load was successful");
-            //XmlNodeList nodes = svg_doc.GetElementsByTagName("svg");
-            //foreach(XmlNode node in nodes)
-            //{
-            //    clean_svg.AppendChild(node);
-            //}
             
             //XmlElement rootNode = svg_doc.CreateElement("svg");
             //XmlElement bld_name = svg_doc.CreateElement("building");
@@ -44,12 +34,24 @@ namespace Create_SVG
 
             //rootNode.AppendChild(bld_name);
             //svg_doc.AppendChild(rootNode);
-            //string building_name = "engineering";
-            //svg_doc.Save(@"SVG_Template_" + building_name + ".xml");
+
+            XmlDocument clean_svg = SVG_Template(3456,2304); 
+
+            //Console.WriteLine("svg load was successful");
+            XmlNodeList nodes = temp_doc.GetElementsByTagName("g");
+            foreach(XmlNode node in nodes)
+            {
+                clean_svg.AppendChild(node);
+            }
+            
+            string building_name = "test";
+            clean_svg.Save("Temp_Files/clean_" + building_name + ".xml");
             Console.WriteLine("svg build was successful");
+
+            return temp_doc;
         }
 
-        public static void SVG_Template(int Width, int Height)
+        public static XmlDocument SVG_Template(int Width, int Height)
         {
             Console.WriteLine("building wrapper");
             XmlDocument temp = new XmlDocument();  
@@ -62,7 +64,9 @@ namespace Create_SVG
                 +"\" xmlns=\"https://www.w3.org/2000/svg\"> "
                 + "</svg>"; 
             temp.LoadXml(BaseSvg); 
-            temp.Save("Temp_Files/New_Base_Template.svg");
+            //temp.Save("Temp_Files/old_Template.svg");
+
+            return temp;
         } 
 
     }

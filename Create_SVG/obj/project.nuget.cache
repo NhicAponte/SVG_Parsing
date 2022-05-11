@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y6tNtMfHvA2okRqhoAlNvNYEsJwDA8ynEn7rwstOiNpY6uQgK0v9u5PQtZTmMBSKCNBYXmcIsS6D0NqorPJZNw==",
+  "dgSpecHash": "QcOcmKlLmwTmDiRUWnkDuCVvFbWq8dX8WekgZ/pa4FDyzJETZyfOodvVieanJsgeriC40JmVtqYAWfeuZc/3tQ==",
   "success": true,
-  "projectFilePath": "/home/nhicolas/repos/SVG_Parsing/Create_SVG/Create_SVG.csproj",
+  "projectFilePath": "/home/nhicaponte/repos/SVG_Parsing/Create_SVG/Create_SVG.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

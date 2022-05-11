@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/nhicolas/.nuget/packages/": {}
+    "/home/nhicaponte/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nhicolas/repos/SVG_Parsing/Create_SVG/Create_SVG.csproj",
+      "projectUniqueName": "/home/nhicaponte/repos/SVG_Parsing/Create_SVG/Create_SVG.csproj",
       "projectName": "Create_SVG",
-      "projectPath": "/home/nhicolas/repos/SVG_Parsing/Create_SVG/Create_SVG.csproj",
-      "packagesPath": "/home/nhicolas/.nuget/packages/",
-      "outputPath": "/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/",
+      "projectPath": "/home/nhicaponte/repos/SVG_Parsing/Create_SVG/Create_SVG.csproj",
+      "packagesPath": "/home/nhicaponte/.nuget/packages/",
+      "outputPath": "/home/nhicaponte/repos/SVG_Parsing/Create_SVG/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nhicolas/.nuget/NuGet/NuGet.Config"
+        "/home/nhicaponte/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/167/sdk/5.0.408/RuntimeIdentifierGraph.json"
       }
     }
   }
