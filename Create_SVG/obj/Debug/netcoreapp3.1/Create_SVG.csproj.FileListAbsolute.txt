@@ -1,0 +1,14 @@
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/bin/Debug/netcoreapp3.1/Create_SVG
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/bin/Debug/netcoreapp3.1/Create_SVG.deps.json
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/bin/Debug/netcoreapp3.1/Create_SVG.runtimeconfig.json
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/bin/Debug/netcoreapp3.1/Create_SVG.runtimeconfig.dev.json
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/bin/Debug/netcoreapp3.1/Create_SVG.dll
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/bin/Debug/netcoreapp3.1/Create_SVG.pdb
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.csproj.AssemblyReference.cache
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.GeneratedMSBuildEditorConfig.editorconfig
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.AssemblyInfoInputs.cache
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.AssemblyInfo.cs
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.csproj.CoreCompileInputs.cache
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.dll
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.pdb
+/home/nhicolas/repos/SVG_Parsing/Create_SVG/obj/Debug/netcoreapp3.1/Create_SVG.genruntimeconfig.cache
